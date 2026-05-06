@@ -125,15 +125,15 @@ nsl-kdd-intrusion-detection/
 │   ├── KDDTrain+.txt (125,973 samples)
 │   └── KDDTest+.txt (22,544 samples)
 ├── src/
-│   ├── load_data.py                        # Data loading & preprocessing
-│   ├── train_random_forest.py              # Random Forest baseline
-│   ├── train_random_forest_improved.py     # One-hot encoding experiment
-│   ├── train_xgboost.py                    # XGBoost model
-│   ├── train_isolation_forest.py           # Isolation Forest (unsupervised)
-│   ├── train_one_class_svm.py              # One-Class SVM (unsupervised)
-│   ├── analyze_attack_types.py             # Novel attack analysis
-│   ├── hybrid_cascade.py                   # Hybrid cascade system
-│   └── voting_ensemble.py                  # Voting ensemble system
+│   ├── load_data.py                     # Data loading & preprocessing
+│   ├── train_random_forest.py           # Random Forest baseline
+│   ├── train_random_forest_improved.py  # One-hot encoding experiment
+│   ├── train_xgboost.py                 # XGBoost model
+│   ├── train_isolation_forest.py        # Isolation Forest (unsupervised)
+│   ├── train_one_class_svm.py           # One-Class SVM (unsupervised)
+│   ├── analyze_attack_types.py          # Novel attack analysis
+│   ├── hybrid_cascade.py                # Hybrid cascade system
+│   └── voting_ensemble.py               # Voting ensemble system
 └── README.md
 
 ## Key Learnings
