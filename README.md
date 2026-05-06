@@ -120,7 +120,7 @@ ALLOW
 
 ## Project Structure
 
-nsl-kdd-intrusion-detection/
+'''nsl-kdd-intrusion-detection/
 ├── data/
 │   ├── KDDTrain+.txt (125,973 samples)
 │   └── KDDTest+.txt (22,544 samples)
@@ -134,7 +134,7 @@ nsl-kdd-intrusion-detection/
 │   ├── analyze_attack_types.py          # Novel attack analysis
 │   ├── hybrid_cascade.py                # Hybrid cascade system
 │   └── voting_ensemble.py               # Voting ensemble system
-└── README.md
+└── README.md'''
 
 ## Key Learnings
 
